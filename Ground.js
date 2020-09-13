@@ -7,6 +7,7 @@ class Ground {
       this.width = width;
       this.height = height;
      Matter.World.add(world, this.body);
+     World.add(world, this.body); 
     }
     display(){
       var pos =this.body.position;
